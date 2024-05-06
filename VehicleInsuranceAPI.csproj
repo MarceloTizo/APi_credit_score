@@ -11,13 +11,10 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Services\Car_Insurance_Claim.csv">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <Link>wwwroot\Car_Insurance_Claim.csv</Link>
-    </None>
-  </ItemGroup>
+<ItemGroup>
+  <None Update="Services\Car_Insurance_Claim.csv">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+</ItemGroup>
 
 </Project>
