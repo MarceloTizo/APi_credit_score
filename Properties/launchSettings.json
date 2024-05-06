@@ -9,11 +9,12 @@
     }
   },
   "profiles": {
-    "VehicleInsuranceAPI": {
+    "http": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:5000;https://localhost:5001",
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5206",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
