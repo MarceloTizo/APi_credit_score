@@ -18,11 +18,10 @@ builder.Services.AddSingleton<ICreditScoreService, CreditScoreService>();
 var app = builder.Build();
 
 // Configure o pipeline de requisições HTTP.
-if (app.Environment.IsDevelopment())
-{
+
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+
 
 app.UseHttpsRedirection();
 
